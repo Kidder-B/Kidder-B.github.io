@@ -1,0 +1,47 @@
+.navbar * {
+    color: var(--tertiary-color);
+    text-align: center;
+    margin: auto 0;
+}
+
+.navbar > * {
+    padding: .5% 1%;
+}
+
+.navbar {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo :not(h2) {
+    color: var(--secondary-color);
+}
+
+.links {
+    flex-grow: 1;
+    display: inline-flex;
+    margin: 0 5%;
+    justify-content: end;
+}
+
+.links li {
+    padding: 0 0 0 10%;
+    display: inline;
+}
+
+.links a {
+    padding: 25%;
+    transition-duration: 0.4s;
+}
+
+.links a:hover {
+    background-color: var(--secondary-complementary-color);
+}

@@ -1,0 +1,39 @@
+.splash-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash-card video {
+    width: 70%;
+    height: 70%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.splash-card * {
+    text-align: center;
+}
+
+.issue-card * {
+    margin: auto 5%;
+}
+
+.issue-card {
+    height: 100vh;
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.issue-card img {
+    height: 50%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about {
+    width: 40%;
+    text-align: center;
+    margin: 5% auto;
+}
