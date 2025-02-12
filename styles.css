@@ -1,10 +1,11 @@
 @import url('modules/anchors/anchors.css');
+
 /* Custom properties/variables  */
 :root {
   --white: #f0f0f0;
   --black: #303841;
   --primary-color: #0DA5A3;
-  --main-font: sans-serif;
+  --main-font: 'Raleway', sans-serif;
 }
 
 /* Base reset */
@@ -34,7 +35,17 @@ html {
 }
 
 body {
-  font-size: 15rem;
+  font-size: 40rem;
   background-color: var(--black);
   text-align: center;
+}
+
+.socials {
+  all: unset;
+  text-decoration: none;
+}
+
+.socials:hover {
+  all: inherit;
+  color: var(--primary-color);
 }
