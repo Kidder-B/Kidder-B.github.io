@@ -24,16 +24,28 @@ html {
 
   /* Set font size for easy rem calculations
    * default document font size = 16px, 1rem = 16px, 100% = 16px
-   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+   * (100% / 16px) * 4 = 25%, 1rem = 4px, 25% = 4px
   */
-  font-size: 62.5%;
+  font-size: 25%;
+  font-family: var(--main-font);
+  color: var(--white);
   scroll-behavior: smooth;
 }
 
 body {
+  font-size: 15rem;
   background-color: var(--black);
+  text-align: center;
 }
 
-.projects-section {
-  text-align: center;
+.projects-section-header { 
+  font-size: 15rem;
+}
+
+.project-title {
+  font-size: 10rem;
+}
+
+.project-title:hover {
+  color: var(--primary-color);
 }
