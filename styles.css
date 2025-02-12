@@ -2,7 +2,7 @@
 :root {
   --white: #f0f0f0;
   --black: #303841;;
-  --primary-color:  #40e0d0;
+  --primary-color:  ##0DA5A3;
   --main-font: sans-serif;
 }
 
@@ -28,4 +28,8 @@ html {
   */
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
 }
