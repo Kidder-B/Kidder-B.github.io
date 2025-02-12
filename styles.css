@@ -1,8 +1,9 @@
+@import url('modules/anchors/anchors.css');
 /* Custom properties/variables  */
 :root {
   --white: #f0f0f0;
-  --black: #303841;;
-  --primary-color:  ##0DA5A3;
+  --black: #303841;
+  --primary-color: #0DA5A3;
   --main-font: sans-serif;
 }
 
@@ -46,22 +47,5 @@ h2 {
   font-size: 10rem;
 }
 
- /* unvisited link */
-a:link {
-  color: var(--primary-color);
-}
 
-/* visited link */
-a:visited {
-  color: var(--primary-color);
-}
 
-/* mouse over link */
-a:hover {
-  color: var(--primary-color);
-}
-
-/* selected link */
-a:active {
-  color: var(--primary-color);
-} 
