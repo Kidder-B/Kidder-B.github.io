@@ -46,6 +46,6 @@ body {
 }
 
 .socials:hover {
-  all: inherit;
+  all: unset;
   color: var(--primary-color);
 }
